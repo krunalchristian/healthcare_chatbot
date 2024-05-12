@@ -1,0 +1,492 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hiii",
+        "Hiiii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey, May I know what you are feeling?",
+        "Hi there, Please type your symptoms?",
+        "Hi there, how are you feeling today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+        "tag": "sy1",
+        "patterns": ["chills vomiting fatigue high headache nausea constipation abdominal pain diarrhoea toxic look (typhos) belly pain"],
+        "responses": ["You may be having Typhoid"]
+      },
+      
+  
+    {
+          "tag" : "sy2",
+          "patterns" : [" joint pain vomiting yellowish skin dark urine nausea loss of appetite abdominal pain diarrhoea mild  yellowing of eyes muscle pain " ],
+          "responses" :
+          [
+              "You maybe having Hepatitis A "
+          ]
+    },
+  
+    {
+          "tag" : "sy3",
+          "patterns" : ["itching fatigue lethargy yellowish skin dark urine loss of appetite abdominal pain yellow urine yellowing of eyes malaise receiving blood transfusion  receiving unsterile injections "],
+          "responses" :
+          [
+              "You maybe having Hepatitis B"
+          ]
+    },
+    {
+          "tag" : "sy4",
+      
+          "patterns" : ["fatigue  yellowish skin nausea loss of appetite yellowing of eyes family history " ],
+          "responses" :
+          [
+              "You maybe having Hepatitis C"
+          ]
+    },
+    {
+          "tag" : "sy5",
+          "patterns" : [" joint pain vomiting fatigue yellowish skin dark urine nausea loss of appetite abdominal pain yellowing of eyes "],
+          "responses" :
+          [
+              "You maybe having Hepatitis D"
+          ]
+    },
+    {
+          "tag" : "sy6",
+          "patterns" : ["joint pain vomiting fatigue high fever yellowish skin dark urine nausea loss of appetite abdominal pain yellowing of eyes acute liver failure coma stomach bleeding " ],
+          "responses" :
+          [
+              "You maybe having Hepatitis E"
+          ]
+    },
+    {
+          "tag" : "sy7",
+          "patterns" : [" vomiting yellowish skin abdominal pain swelling of stomach distention of abdomen history of alcohol consumption fluid overload  1",
+                        "vomiting yellowish",
+                        "history of alcohol consumption",
+                        "alcohol",
+                        "alcohol consumption",
+                        "high alcohol consumption"
+
+
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Alcoholic hepatitis "
+          ]
+    },
+    {
+          "tag" : "sy8",
+          "patterns" : ["chills vomiting fatigue weight loss cough high  breathlessness sweating loss of appetite mild  yellowing of eyes swelled lymph nodes malaise phlegm chest pain blood in sputum "
+          ],
+          "responses" :
+          [
+              "You maybe having Tuberculosis "
+          ]
+    },
+    {
+          "tag" : "sy9",
+          "patterns" : [" continuous sneezing chills fatigue cough high  headache swelled lymph nodes malaise phlegm throat irritation redness of eyes sinus pressure runny nose congestion chest pain loss of smell muscle pain",
+          "cough cold headache "
+          ],
+          "responses" :
+          [
+              "You maybe having Common Cold"
+          ]
+    },
+      {
+          "tag" : "sy10",
+          "patterns" : [" chills fatigue cough high  breathlessness sweating malaise phlegm chest pain fast heart rate rusty sputum"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Pneumonia "
+          ]
+      },
+      {
+          "tag" : "sy11",
+          "patterns" : [" constipation pain during bowel movements pain in anal region bloody stool irritation in anus"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Dimorphic hemmorhoids(piles)"
+          ]
+      },
+      {
+          "tag" : "sy12",
+          "patterns" : [" vomiting breathlessness sweating chestpain"
+  
+          ],
+          "responses" :
+          [
+              "You might have a Heart attack"
+          ]
+      },
+      {
+          "tag" : "sy13",
+          "patterns" : ["fatigue cramps bruising obesity swollen legs swollen blood vessels prominent veins on calf "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Varicose veins"
+          ]
+      },
+      {
+          "tag" : "sy14",
+          "patterns" : [" fatigue weight gain cold hands and feets mood swings lethargy dizziness puffy face and eyes enlarged thyroid brittle nails swollen extremeties depressionatio irritability abnormal menstrun "
+  
+          ],
+          "responses" :
+          [
+              " You maybe having Hypothyroidism"
+          ]
+      },
+  
+      {
+          "tag" : "sy15",
+          "patterns" : [" vomiting fatigue anxiety sweating headache nausea blurred and distorted vision excessive hunger drying and tingling lips slurred speech irritability palpitations"
+  
+          ],
+          "responses" :
+          [
+              " You maybe having Hypoglycemia "
+          ]
+      },
+      {
+          "tag" : "sy16",
+          "patterns" : ["joint pain neck pain knee pain hip joint pain swelling joints painful walking"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Osteoarthristis "
+          ]
+      },
+      {
+          "tag" : "sy17",
+          "patterns" : [" muscle weakness stiff neck swelling joints movement stiffness painful walking"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Arthritis, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties "
+          ]
+      },
+      {
+          "tag" : "sy18",
+          "patterns" : [" vomiting headache nausea spinning movements loss of balance unsteadiness"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having (vertigo) Paroymsal  Positional Vertigo, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties "
+          ]
+      },
+      {
+          "tag" : "sy19",
+          "patterns" : [" skin rash pus filled pimples blackheads scurring "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Acne "
+          ]
+      },
+      {
+          "tag" : "sy20",
+          "patterns" : [" burning micturition bladder discomfort foul smell of urine continuous feel of urine"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Urinary tract infection"
+          ]
+      },
+      {
+          "tag" : "sy21",
+          "patterns" : ["skin rash joint pain skin peeling silver like dusting small dents in nails inflammatory nails  "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Psoriasis, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties"
+          ]
+      },
+      {
+          "tag" : "sy22",
+          "patterns" : ["skin rash high  blister red sore around nose yellow crust ooze "
+  
+          ],
+          "responses" :
+          [
+              " You maybe having Impetigo, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties"
+          ]
+      },
+      {
+          "tag" : "sy23",
+          "patterns" : [" itching skin rash nodal skin eruptions dischromic  patches"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Fungal infection"
+          ]
+      },
+      {
+          "tag" : "sy24",
+          "patterns" : [" continuous sneezing shivering chills watering from eyes"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Allergy"
+          ]
+      },
+      {
+          "tag" : "sy25",
+          "patterns" : ["stomach pain acidity ulcers on tongue vomiting cough chest pain "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having GER, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties "
+          ]
+      },
+      {
+          "tag" : "sy26",
+          "patterns" : [" itching vomiting yellowish skin nausea loss of appetite abdominal pain yellowing of eyes"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Chronic cholestasis"
+          ]
+      },
+      {
+          "tag" : "sy27",
+          "patterns" : [" itching skin rash stomach pain burning micturition spotting  urination"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Drug Reaction, It is minor issue so use this remedies. Withdrawal of the drug. If your provider determines that you have a drug allergy — or likely allergy — discontinuing the drug is the first step in treatment.  "
+          ]
+      },
+      {
+          "tag" : "sy28",
+          "patterns" : [" vomiting indigestion loss of appetite abdominal pain passage of gases internal itching"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Peptic ulcer disease, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties"
+          ]
+      },
+      {
+          "tag" : "sy29",
+          "patterns" : ["muscle wasting patches in throat high  extra marital contacts "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having AIDS, It is major issue Discuss doctor for further use this link https://www.apollo247.com/specialties"
+          ]
+      },
+      {
+          "tag" : "sy30",
+          "patterns" : [" fatigue weight loss restlessness lethargy irregular sugar level blurred and distorted vision obesity excessive hunger increased appetite polyuria "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Diabetes"
+          ]
+      },
+      {
+          "tag" : "sy31",
+          "patterns" : [" vomiting sunken eyes dehydration diarrhoea "
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Gastroenteritis"
+          ]
+      },
+      {
+          "tag" : "sy32",
+          "patterns" : ["fatigue cough high  breathlessness family history mucoid sputum ",
+                        "cough",
+                        
+                        "breathlessness",
+                        "family history mucoid sputum",
+                        "fatigue cough"
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Bronchial Asthma "
+          ]
+      },
+      {
+          "tag" : "sy33",
+          "patterns" : [" headache chest pain dizziness loss of balance lack of concentration",
+                        "chest pain",
+                        "chest pain dizziness",
+                        "loss of balance",
+                        "lack of concentration"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Hypertension"
+          ]
+      },
+      {
+          "tag" : "sy34",
+          "patterns" : [" acidity indigestion headache blurred and distorted vision excessive hunger stiff neck depression irritability visual disturbances",
+                        "acidity indigestion",
+                        "distorted vision",
+                        "neck depression",
+                        "irritability visual",
+                        "disturbances",
+                        "acidity indigestion headache blurred"
+
+          ],
+          "responses" :
+          [
+              "You maybe having Migraine"
+          ]
+      },
+      {
+          "tag" : "sy35",
+          "patterns" : ["back pain weakness in limbs neck pain dizziness loss of balance ",
+                        "back pain",
+                        "weakness in limbs",
+                        "neck pain",
+                        "dizziness loss of balance"
+
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Cervical spondylosis"
+          ]
+      },
+      {
+          "tag" : "sy36",
+          "patterns" : [" vomiting headache weakness of one body side altered sensorium",
+                        "vomiting headache",
+                        "weakness of one body side"
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Paralysis (brain hemorrhage)"
+          ]
+      },
+      {
+          "tag" : "sy37",
+          "patterns" : [" itching vomiting fatigue weight loss high  yellowish skin dark urine abdominal pain ",
+                         "itching vomiting",
+                         "weight loss with urine abdominal pain",
+                         "urine abdominal pain"
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Jaundice "
+          ]
+      },
+      {
+          "tag" : "sy38",
+          "patterns" : ["chills vomiting high  sweating headache nausea diarrhoea muscle pain ",
+                        "chills vomiting",
+                        "sweating headache",
+                        "diarrhoea muscle pain"
+
+
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Malaria"
+          ]
+      },
+      {
+          "tag" : "sy39",
+          "patterns" : ["itching skin rash fatigue lethargy high  headache loss of appetite mild  swelled lymph nodes malaise red spots over body ",
+                         "itching skin",
+                         "loss of appetite mild fever swelled lymph nodes"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Chicken pox"
+          ]
+      },
+      {
+          "tag" : "sy40",
+          "patterns" : [" skin rash chills joint pain vomiting fatigue high  headache nausea loss of appetite pain behind the eyes back pain malaise muscle pain red spots over body"
+  
+          ],
+          "responses" :
+          [
+              "You maybe having Dengue"
+          ]
+      },
+      {
+          "tag" : "sy40",
+          "patterns" : [" feeling fever"
+  
+          ],
+          "responses" :
+          [
+              "Check temperature, This is minor issue so you can use this remedies Rest and drink plenty of fluids. Medication isn't needed. Call the doctor if the  is accompanied by a severe headache, stiff neck, shortness of breath, or other unusual signs or symptoms. If you're uncomfortable, take acetaminophen (Tylenol, others), ibuprofen (Advil, Motrin IB, others) or aspirin. "
+          ]
+      },
+      {
+          "tag" : "sy41",
+          "patterns" : ["feeling vomiting"
+
+  
+          ],
+          "responses" :
+          [
+              "COMMON CAUSES and check temperature, This is minor issue so you can use this remedies Sucking on hard candies, such as lemon drops or mints, to eliminate unpleasant tastes "
+          ]
+      }
+    ]      
+}
